@@ -1,0 +1,23 @@
+body {
+    background-color: #f1f1ee;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#habilidades, #texto, #objetivos,#estudando{
+    color: rgb(43, 42, 42);
+}
+#habilidades, #texto, #objetivos{
+    background-color: rgb(120, 120, 121);
+    width: 280px;
+}
+#estudando{
+    background-color: rgb(120, 120, 121);
+    width: 350px;
+
+}
+#texto {
+    padding-left: 30px;
+}
+h1 {
+    text-align: center;
+}

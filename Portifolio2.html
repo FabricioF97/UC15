@@ -4,23 +4,9 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
-    <style>
-        body {
-            background-color: #f1f1ee;
-            margin-left: 80px;
-            margin-right: 80px;
-        }
-        #habilidades, #texto, #objetivos,#estudando{
-            color: rgb(43, 42, 42);
-        }
-        #texto {
-            padding-left: 30px;
-        }
-        h1 {
-            text-align: center;
-        }
-    </style>
-</head>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer ></script>
+    
 <body>
 
     <h1>Esse é meu primeiro teste em HTML e CSS no SENAC Santo André.</h1>
@@ -54,39 +40,6 @@
         <li>Suporte Técnico: manutenção, solução de problemas e atendimento ao usuário</li>
     </ul>
 
-    <script>
-        const texto = document.getElementById("texto");
-        const objetivos = document.getElementById("objetivos");
-
-        texto.addEventListener("click", function() {
-            if (texto.style.color === "rgb(43, 42, 42)" || texto.style.color === "") {
-                texto.style.color = "blue";
-            } else {
-                texto.style.color = "rgb(43, 42, 42)";
-            }
-        });
-
-        objetivos.addEventListener("click", function() {
-            if (objetivos.style.color === "rgb(43, 42, 42)" || objetivos.style.color === "") {
-                objetivos.style.color = "blue";
-            } else {
-                objetivos.style.color = "rgb(43, 42, 42)";
-            }
-        });
-        habilidades.addEventListener("click", function() {
-            if (habilidades.style.color === "rgb(43, 42, 42)" || habilidades.style.color === "") {
-                habilidades.style.color = "blue";
-            } else {
-                habilidades.style.color = "rgb(43, 42, 42)";
-            }
-        })
-            estudando.addEventListener("click", function() {
-            if (estudando.style.color === "rgb(43, 42, 42)" || estudando.style.color === "") {
-                estudando.style.color = "blue";
-            } else {
-                estudando.style.color = "rgb(43, 42, 42)";
-            }
-        })
-    </script>
+    
 </body>
 </html>
